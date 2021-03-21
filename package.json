@@ -30,7 +30,9 @@
     "start": "react-scripts start",
     "build": "cross-env GENERATE_SOURCEMAP=false PUBLIC_URL=/gadjian-app react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
