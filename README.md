@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# You can access this web with https://firdiansyah26.github.io/gadjian-app/
+## You can access this web with 
+https://firdiansyah26.github.io/gadjian-app/
 
 ## Available Scripts
 
