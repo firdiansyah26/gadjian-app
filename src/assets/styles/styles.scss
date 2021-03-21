@@ -1,0 +1,154 @@
+@media screen and (max-width: 475px) {
+  .nav-links {
+    visibility: hidden;
+  }
+  .menu-responsive {
+    position: absolute;
+    left: 10px;
+  }
+
+  .menu-nonresponsive {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 476px) {
+  // navbar header
+  .logo-style {
+    height: 50px;
+  }
+  .menu-responsive {
+    visibility: hidden;
+  }
+
+  .menu-nonresponsive {
+    float: right;
+    position: absolute;
+    right: 0px;
+    font-size: 18px;
+    padding-right: 10px;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  //   display: flex;
+  margin: 0 20px;
+  flex-wrap: wrap;
+  text-align: center;
+
+  margin: auto;
+  width: 84%;
+  //   padding-top: 8%;
+  padding-top: 100px;
+  margin-bottom: 2%;
+}
+
+header {
+  //   border-bottom: 1px solid #bfbfbf;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  img {
+    height: 40px;
+  }
+
+  div a {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
+
+.ant-layout-header {
+  background-color: white !important;
+  height: 50px !important;
+  text-align: center;
+  height: 10% !important;
+}
+.ant-card {
+  margin-bottom: 10px !important;
+}
+
+.ant-layout {
+  background-color: white !important;
+}
+body {
+  background-color: rgb(245, 245, 245) !important;
+}
+
+.row-personnel-box {
+  padding-bottom: 10px;
+  text-align: initial;
+}
+
+.ant-typography {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.text {
+  &-align {
+    &-left {
+      text-align: left;
+    }
+  }
+  &-color {
+    color: rgb(28, 193, 191);
+  }
+  &-color-white {
+    color: white !important;
+  }
+  &-capslock {
+    text-transform: uppercase;
+  }
+  &-header {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  &-subheader {
+    font-size: 18px;
+  }
+}
+
+.color {
+  &-background-blue {
+    background-color: rgb(28, 193, 191) !important;
+  }
+}
+
+.button {
+  &-margin-right {
+    margin-right: 10px;
+  }
+}
+
+.card {
+  &-radius {
+    border-radius: 10px !important;
+  }
+  &-paddingtop {
+    padding-top: 30px;
+  }
+  &-title {
+    font-weight: 800 !important;
+  }
+  &-content {
+    font-weight: 400 !important;
+  }
+  &-inputsearch {
+    width: 160px !important;
+    margin-right: 5px !important;
+  }
+}
